@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stemcore"
+version = "0.0.1"
+description = "A Python library with core functions in scientific and engineering computations."
+authors = [
+    { name="STEM Research", email="stemcore@stemfard.org" }
+]
+dependencies = ["sympy>=1.12"]
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = ["scientific computing", "data types"]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[project.urls]
+Homepage = "https://github.com/stemfard/stemcore"
+Documentation = "https://github.com/stemfard/stemcore#readme"
+Source = "https://github.com/stemfard/stemcore"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
