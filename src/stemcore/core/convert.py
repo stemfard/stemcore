@@ -7,6 +7,7 @@ from verifyparams import verify_membership
 
 _ALLOWED_KINDS = ["array", "series", "dataframe"]
 
+
 def arr_to_numeric(
     data: Sequence[Any],
     kind: Literal["array", "series", "dataframe"] = "array",

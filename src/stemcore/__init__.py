@@ -27,6 +27,9 @@ __license__ = "MIT"
 __copyright__ = f"Copyright (c) 2026 {__credits__}"
 
 from .core import(
+    # convert 
+    arr_to_numeric,
+    
     # _decimals
     numeric_format,
     
@@ -41,16 +44,19 @@ from .core import(
 )
 
 __all__ = [
-    # _decimals
+    # convert
+    "arr_to_numeric",
+    
+    # decimals
     "numeric_format",
     
-    # _is_dtypes
+    # is_dtypes
     "is_maths_function", "is_symexpr",
     
-    # _strings
+    # strings
     "str_data_join", "str_data_join_contd",
     
-    # _symbolic
+    # symbolic
     "sym_lambdify_expr", "sym_expr_to_numpy_function"
 ]
 
