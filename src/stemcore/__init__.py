@@ -56,6 +56,6 @@ __all__ = [
 
 #===========================================================================#
 #                                                                           #
-# STEM RESEARCH :: AI . APIs . Cloud :: https://stemcore.stemfard.org   #
+# STEM RESEARCH :: AI . APIs . Innovate :: https://stemcore.stemfard.org   #
 #                                                                           #
 #===========================================================================#
